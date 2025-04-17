@@ -1,0 +1,26 @@
+/* src/components/molecules/UserCard.module.css */
+
+.userCard {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .userCard:hover {
+    transform: scale(1.02);
+  }
+  
+  .userName {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .userName:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
